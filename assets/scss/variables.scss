@@ -96,7 +96,8 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
         // --card-text-color-tertiary: rgba(255, 255, 255, 0.5);
         --card-text-color-tertiary: rgb(113, 113, 124);
         // --card-separator-color: rgba(255, 255, 255, 0.12);
-        --card-separator-color: rgb(0, 204, 255);
+        // --card-separator-color: rgb(43, 255, 0);  // Quote
+        --card-separator-color: #3dd68a;  // Quote
     }
 }
 
@@ -143,9 +144,12 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
         --code-text-color: rgba(255, 255, 255, 0.9);
 
         --table-border-color: #717171;
+        --table-border-color: #717171;
         --tr-even-background-color: #545454;
 
-        --blockquote-background-color: rgb(75 75 75);
+        // --blockquote-background-color: rgb(75 75 75);
+        // --blockquote-background-color: rgb(39, 42, 47);
+        --blockquote-background-color: rgb(41, 44, 48);
     }
 }
 
